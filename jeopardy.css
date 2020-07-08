@@ -1,0 +1,49 @@
+/* some colors you may find useful:
+  #115ff4
+  #060ce9
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+.table td {
+	border: black solid 5px !important;
+	text-align: center;
+	vertical-align: middle;
+	height: 10em;
+	width: 10em;
+	box-shadow: inset 0 0 3.5px #000000;
+}
+
+.table th {
+	border: black solid 5px !important;
+	height: 6em;
+	width: 10em;
+	text-align: center;
+	box-shadow: inset 0 0 3.5px #000000;
+}
+
+.table thead th {
+	vertical-align: middle;
+}
+
+#tableID {
+	background-color: blue !important;
+	box-shadow: 0 10px 6px -6px;
+}
+
+#myProgress {
+	background-color: grey;
+	margin-top: 500px !important;
+	font-size: 25px;
+}
+
+#myBar {
+	width: 0%;
+	height: 30px;
+	background-color: green;
+}
+
+.tableBody {
+	cursor: pointer;
+}
